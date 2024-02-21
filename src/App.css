@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0d192c;
+  margin: 40px 0;
+}
+
+.container {
+  width: 350px;
+  background-color: #15263f;
+  margin: 0 auto;
+  padding: 24px 24px 32px;
+  border-radius: 20px;
+  font-family: "Outfit", sans-serif;
+}
+
+.equilibrium {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.equilibrium-text {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #8bacd9;
+  margin-bottom: 12px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2e405a;
+  padding-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.eth span {
+  color: #00fff8;
+}
+
+.clock span {
+  color: #8bacd9;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+}
+
+.author p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #8bacd9;
+}
+
+.author p span {
+  color: #fff;
+}
