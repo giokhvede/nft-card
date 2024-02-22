@@ -21,6 +21,33 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+.equilibrium-container {
+  position: relative;
+}
+
+.view-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 302px;
+  border-radius: 10px;
+}
+
+.view {
+  display: none;
+}
+
+.view-container:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 248, 0.5);
+}
+
+.view-container:hover .view {
+  display: block;
+}
+
 .equilibrium {
   width: 100%;
   border-radius: 10px;
@@ -34,6 +61,11 @@ h1 {
   font-weight: 600;
   line-height: 28px;
   margin-bottom: 12px;
+}
+
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
 }
 
 .equilibrium-text {
@@ -90,4 +122,9 @@ h1 {
 
 .author p span {
   color: #fff;
+}
+
+.author p span:hover {
+  color: #00fff8;
+  cursor: pointer;
 }
